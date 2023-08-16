@@ -5,6 +5,7 @@ import tracker from "../../Assets/Projects/jobtrackr.jpg";
 import workMate from "../../Assets/Projects/workmate.jpg";
 import skillShare from "../../Assets/Projects/skillshare.jpg";
 import rollcall from "../../Assets/Projects/rollcall.jpg";
+import petalHaven from "../../Assets/Projects/petal-haven.jpg";
 
 function Projects() {
   return (
@@ -14,6 +15,17 @@ function Projects() {
           Portfolio
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={6} lg={4} className="project-card">
+            <ProjectCard
+              imgPath={petalHaven}
+              isBlog={false}
+              title="Petal Haven"
+              description="A fictional website brushing up on HTML/CSS skills. AI chipped in for 75% of the groundwork, and I fine-tuned the rest. See how old-school coding meets new-gen AI, leveling up my skills and diving into AI territory at the same time!"
+              stack="HTML, CSS, ChatGPT."
+              ghLink="https://github.com/AndreaJasper/petal-haven"
+              // demoLink="https://chatify-49.web.app/"
+            />
+          </Col>
           <Col md={6} lg={4} className="project-card">
             <ProjectCard
               imgPath={tracker}
