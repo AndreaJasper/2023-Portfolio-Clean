@@ -45,7 +45,7 @@ function Projects() {
               title="WorkMate"
               description="Inspired by my husband's grievances about his antiquated work order tracking system, I developed a project that incorporates comprehensive CRUD funcationality and authentication."
               stack="Rails and Bootstrap"
-              ghLink="https://github.com/AndreaJasper/rails-workorder-app"
+              ghLink="https://github.com/AndreaJasper/work-mate"
               // demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
