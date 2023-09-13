@@ -6,6 +6,7 @@ import workMate from "../../Assets/Projects/workmate.jpg";
 import skillShare from "../../Assets/Projects/skillshare.jpg";
 import rollcall from "../../Assets/Projects/rollcall.jpg";
 import petalHaven from "../../Assets/Projects/petal-haven.jpg";
+import ravenous from "../../Assets/Projects/ravenous.jpg"
 
 function Projects() {
   return (
@@ -15,6 +16,17 @@ function Projects() {
           Portfolio
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={6} lg={4} className="project-card">
+            <ProjectCard
+              imgPath={ravenous}
+              isBlog={false}
+              title="Ravenous"
+              description="A dynamic React website that harnesses the full potential of Yelp's API, empowering users to easily explore nearby restaurants by inputting specific location and keyword preferences. With an intuitive interface and real-time updates, users can efficiently find their desired dining options and make informed choices."
+              stack="React, JavaScript, HTML/CSS"
+              ghLink="https://github.com/AndreaJasper/ravenous"
+              // demoLink="https://chatify-49.web.app/"
+            />
+          </Col>
         <Col md={6} lg={4} className="project-card">
             <ProjectCard
               imgPath={petalHaven}
