@@ -7,6 +7,7 @@ import skillShare from "../../Assets/Projects/skillshare.jpg";
 import rollcall from "../../Assets/Projects/rollcall.jpg";
 import petalHaven from "../../Assets/Projects/petal-haven.jpg";
 import ravenous from "../../Assets/Projects/ravenous.jpg"
+import jammming from "../../Assets/Projects/jammming.jpg";
 
 function Projects() {
   return (
@@ -16,7 +17,18 @@ function Projects() {
           Portfolio
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-        <Col md={6} lg={4} className="project-card">
+          <Col md={6} lg={4} className="project-card">
+            <ProjectCard
+              imgPath={jammming}
+              isBlog={false}
+              title="Jammming"
+              description="A React application that employs the Spotify API to enable users to search for music on Spotify, craft a personalized playlist, and then save it to their own Spotify account."
+              stack="React, Spotify API, HTML/CSS"
+              ghLink="https://github.com/AndreaJasper/jammming"
+              demoLink="https://jammming-theta.vercel.app/"
+            />
+          </Col>
+          <Col md={6} lg={4} className="project-card">
             <ProjectCard
               imgPath={ravenous}
               isBlog={false}
@@ -24,7 +36,7 @@ function Projects() {
               description="A dynamic React website that harnesses the full potential of Yelp's API, empowering users to easily explore nearby restaurants by inputting specific location and keyword preferences. With an intuitive interface and real-time updates, users can efficiently find their desired dining options and make informed choices."
               stack="React, JavaScript, HTML/CSS"
               ghLink="https://github.com/AndreaJasper/ravenous"
-              // demoLink="https://chatify-49.web.app/"
+              demoLink="https://ravenous-sooty.vercel.app/"
             />
           </Col>
         <Col md={6} lg={4} className="project-card">
@@ -74,7 +86,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={6} lg={4} className="project-card">
+          {/* <Col md={6} lg={4} className="project-card">
             <ProjectCard
               imgPath={skillShare}
               isBlog={false}
@@ -84,7 +96,7 @@ function Projects() {
               ghLink="https://github.com/AndreaJasper/old-skillshare-portfolio"
               // demoLink="https://blogs.soumya-jit.tech/"
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
