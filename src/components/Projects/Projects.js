@@ -23,7 +23,7 @@ function Projects() {
               isBlog={false}
               title="Jammming"
               description="A React application that employs the Spotify API to enable users to search for music on Spotify, craft a personalized playlist, and then save it to their own Spotify account."
-              stack="React, Spotify API, HTML/CSS"
+              stack="React, Spotify API, JavaScript, HTML/CSS, Authentication"
               ghLink="https://github.com/AndreaJasper/jammming"
               demoLink="https://jammming-theta.vercel.app/"
             />
@@ -34,7 +34,7 @@ function Projects() {
               isBlog={false}
               title="Ravenous"
               description="A dynamic React website that harnesses the full potential of Yelp's API, empowering users to easily explore nearby restaurants by inputting specific location and keyword preferences. With an intuitive interface and real-time updates, users can efficiently find their desired dining options and make informed choices."
-              stack="React, JavaScript, HTML/CSS"
+              stack="React, JavaScript, HTML/CSS, Authenticaion"
               ghLink="https://github.com/AndreaJasper/ravenous"
               demoLink="https://ravenous-sooty.vercel.app/"
             />
